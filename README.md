@@ -1,4 +1,4 @@
-# SplitEase 💸
+# Hisab 💸
 
 > A full-stack expense-sharing app. Create groups, add shared expenses, and instantly see who owes whom, with smart debt simplification and email notifications.
 
@@ -10,7 +10,9 @@
 
 ## 📌 About
 
-SplitEase removes the awkwardness of tracking shared money (trips, flatmates, dinners). Add an expense, choose how to split it, and SplitEase keeps every member's balance up to date. When it's time to settle, it calculates a small set of payments that clears all debts.
+🌐 **Live:** https://hisab-self-fd41.vercel.app
+
+Hisab removes the awkwardness of tracking shared money (trips, flatmates, dinners). Add an expense, choose how to split it, and Hisab keeps every member's balance up to date. When it's time to settle, it calculates a small set of payments that clears all debts.
 
 ## ✨ Features
 
@@ -40,7 +42,7 @@ SplitEase removes the awkwardness of tracking shared money (trips, flatmates, di
 ## 📁 Project Structure
 
 ```
-Splitease/
+Hisab/
 ├── backend/                          # Spring Boot REST API
 │   ├── src/main/java/com/splitease/splitease/
 │   │   ├── config/                   # Security, CORS, Swagger, async config
@@ -121,8 +123,8 @@ The app opens at **http://localhost:5173**.
 
 ```bash
 cd backend
-docker build -t splitease-backend .
-docker run -p 8081:8081 --env-file .env splitease-backend
+docker build -t hisab-backend .
+docker run -p 8081:8081 --env-file .env hisab-backend
 ```
 
 ## 📡 API Reference
